@@ -1,5 +1,5 @@
 # Resource-Generator
-This is a resource generator created with node.js for Fivem which just creates empty resources.
+This is a resource generator created with node.js for FiveM which just creates empty resources.
 I made this just for fun and i know it's actually useful ... not 🙃.
 
 ## Set Up
