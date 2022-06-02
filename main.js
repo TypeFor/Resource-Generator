@@ -10,7 +10,7 @@ const createResource = () => {
             console.log("\x1b[31mError: Maybe is the 'resourceCreationPath' invalid, please check the path.\x1b[0m");
             process.exit();
         }
-        fs.writeFile(`${__dirname}/resources/resource_${resourcesCount}/__resource.lua`, `-- resource_${resourcesCount}`, (err) => {
+        fs.writeFile(`${__dirname}/${resourceCreationPath}/resource_${resourcesCount}/__resource.lua`, `-- resource_${resourcesCount}`, (err) => {
             if (err) {
                 console.log(err);
                 process.exit();
