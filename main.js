@@ -29,4 +29,4 @@ let interval = setInterval(() => {
     }
 }, resourceCreationIntervalInMS);
 
-console.log("\x1b[32mThe Resource Generator is ready!\x1b[0m");
+console.log("\x1b[32mThe Resource Generator is ready!\x1b[0m"); 
