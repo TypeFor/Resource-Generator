@@ -16,7 +16,7 @@ const createResource = () => {
                 process.exit();
             }
             console.log(`'resource_${resourcesCount}' created!`);
-            resourcesCount++
+            resourcesCount++;
         });
     });
 };
