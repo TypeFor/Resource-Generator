@@ -1,0 +1,5 @@
+{
+    "resourceCreationPath": "resources",
+    "resourcesAmount": 10,
+    "resourceCreationIntervalInMS": 500
+}
