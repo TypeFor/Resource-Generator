@@ -7,7 +7,7 @@ let resourcesCount = 0;
 
 const createResource = () => {
     fs.mkdir(`${__dirname}/${resourceCreationPath}/resource_${resourcesCount}`, (err) => {
-        if (err) throw new Error('Maybe is the "resourceCreationPath" invalid, please check the path.');
+        if (err) throw new Error(err);
         fs.writeFile(`${__dirname}/${resourceCreationPath}/resource_${resourcesCount}/__resource.lua`, `-- resource_${resourcesCount}`, (err) => {
             if (err) throw new Error(err);
             console.log(`'resource_${resourcesCount}' created!`);
